@@ -5,7 +5,7 @@
 >
 > **Provided "as is", with no warranty and no liability. Use at your own risk.**
 >
-> **Photosensitivity warning:** this extension can produce intense motion, flashing and high-contrast feedback visuals that may trigger seizures or cause dizziness or eye strain. Do not use it if you are sensitive to flashing images. Stop instantly with **Alt+Shift+X**.
+> **Photosensitivity warning:** this extension can produce intense motion, flashing and high-contrast feedback visuals that may trigger seizures or cause dizziness or eye strain. Do not use it if you are sensitive to flashing images. Keyboard shortcuts such as the **Alt+Shift+X** kill switch might not work on every computer (another program or your keyboard settings can block them), so do not rely on them. The most reliable ways to stop are to **click the PsychTabber toolbar icon**, or to close or reload the tab. Stop immediately if you feel unwell.
 
 **Version 1.0.** A Chrome (Manifest V3) extension that makes the tab you are on look psychedelic, live and on that tab only, with no extra window. The page stays clickable, scrollable and typeable underneath.
 
@@ -38,7 +38,7 @@ See the [step-by-step guide](docs/GUIDE.md). Requires a recent desktop Chrome (t
 1. Click the toolbar icon on a tab. The side panel opens and reduced mode starts.
 2. Press the purple **Full shader** button on the page and choose **Share this tab** in Chrome's prompt.
 3. Pick a preset and adjust sliders. Turn on **Camera feedback** and drag the 3D camera.
-4. **Alt+Shift+P** start/stop, **Alt+Shift+X** panic stop, **Alt+Shift+C** camera keys (arrows or numpad move, +/- roll, PgUp/PgDn zoom, R reset).
+4. **Alt+Shift+P** start/stop, **Alt+Shift+X** panic stop (may not work on every computer; clicking the toolbar icon always stops it), **Alt+Shift+C** camera keys (arrows or numpad move, +/- roll, PgUp/PgDn zoom, R reset).
 
 Chrome pages, the Web Store and plain `http://` pages cannot be captured.
 
