@@ -1,9 +1,14 @@
-
-
 # PsychTabber
 
+## Screenshots
+| Top of the panel | Camera and cut-outs | Effects | Performance |
+|---|---|---|---|
+| ![Presets, master controls and camera feedback](docs/img/panel-1-top.jpg) | ![Camera feedback sliders and cut-outs](docs/img/panel-2-camera-and-cutouts.jpg) | ![Effects list](docs/img/panel-3-effects.jpg) | ![Effects, performance and display](docs/img/panel-4-performance.jpg) |
+
+Every control is explained in [docs/EFFECTS.md](docs/EFFECTS.md). A drawing of the panel layout is in the [guide](docs/GUIDE.md).
+
 > ## 🤖 This entire project was created with AI
-> **Everything in this repository was made using artificial intelligence (Anthropic's Claude), directed by a human: all of the code, the shaders, the interface, the icons and other assets, this README, the guides, the descriptions and the legal text.** It has not been professionally reviewed or audited, and the AI can make mistakes. Read the [full disclaimer](DISCLAIMER.md) before using it.
+> **Everything in this repository was made using artificial intelligence (Anthropic's Claude), directed by a human: all of the code, the shaders, the interface, the icons and other assets, this README, the guides, the descriptions and the legal text.** Humans may have modified any of these files, including this README, since they were generated. It has not been professionally reviewed or audited, and the AI can make mistakes. Read the [full disclaimer](DISCLAIMER.md) before using it.
 >
 > **Provided "as is", with no warranty and no liability. Use at your own risk.**
 >
@@ -14,21 +19,6 @@
 **Version 1.0 (experimental).** A Chrome (Manifest V3) extension that gives the tab you are on a psychedelic-style look, live and on that tab only, with no extra window. The page stays clickable, scrollable and typeable underneath. It is an artistic filter: it does not simulate any real drug or mental state.
 
 **Guides:** [How to use it](docs/GUIDE.md) · [Every control and effect explained](docs/EFFECTS.md) · [Testing checklist](docs/TESTING.md) · [What each file does](docs/UNDERSTANDING_THE_CODE.md) · [Privacy](docs/PRIVACY.md) · [Disclaimer](DISCLAIMER.md)
-
-## Demo
-
-
-
-
-<!-- DEMO VIDEO GOES HERE. To add it: click the pencil icon to edit this file, drag demo.mp4 into the editor
-     right below this comment (free accounts allow up to 10 MB), wait for the link to appear, then commit. -->
-
-## Screenshots
-| Top of the panel | Camera and cut-outs | Effects | Performance |
-|---|---|---|---|
-| ![Presets, master controls and camera feedback](docs/img/panel-1-top.jpg) | ![Camera feedback sliders and cut-outs](docs/img/panel-2-camera-and-cutouts.jpg) | ![Effects list](docs/img/panel-3-effects.jpg) | ![Effects, performance and display](docs/img/panel-4-performance.jpg) |
-
-Every control is explained in [docs/EFFECTS.md](docs/EFFECTS.md). A drawing of the panel layout is in the [guide](docs/GUIDE.md).
 
 ## Features
 - 36 visual effects (breathing, warping, kaleidoscope, trails, glow, colour drift, tunnels and more) with 16 built-in presets.
@@ -74,7 +64,7 @@ No data leaves your computer. The code makes no network requests. See [docs/PRIV
 This whole repository, including the code, assets, descriptions and tutorials, was created using AI (Anthropic's Claude) under human direction and lightly tested. Please review the code before trusting it, and report problems through Issues.
 
 ## License
-Public domain under the [Unlicense](LICENSE). The software is provided "as is" without warranty of any kind. See [DISCLAIMER.md](DISCLAIMER.md) for the full disclaimer, health warning and non-affiliation statement. Not affiliated with Google, Chrome, YouTube or Anthropic.
+Dedicated to the public domain under [CC0 1.0 Universal](LICENSE). It does not cover patents, trademarks or third-party material. The software is provided "as is" without warranty of any kind. See [DISCLAIMER.md](DISCLAIMER.md) for the full disclaimer, health warning and non-affiliation statement. Not affiliated with Google, Chrome, YouTube or Anthropic.
 
 ## Contributing
-Issues and pull requests are welcome. By contributing you agree your work is dedicated to the public domain under the Unlicense.
+Issues and pull requests are welcome. By contributing you agree your work is dedicated to the public domain under CC0 1.0 Universal.
