@@ -16,4 +16,4 @@ PsychTabber does not collect, store off-device, or transmit any data.
 | `storage` | Saves your settings and presets locally |
 | `sidePanel` | Shows the controls panel |
 
-It injects code only into a tab after you click the toolbar icon (or use the shortcut) there.
+It injects code only into a tab after you click the toolbar icon there. If you reload or navigate that same tab while the filter is on, it re-applies itself to that tab. Closing the tab, or stopping the filter, ends it.

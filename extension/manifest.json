@@ -36,13 +36,13 @@
    "suggested_key": {
     "default": "Alt+Shift+P"
    },
-   "description": "Start or stop PsychTabber on the current tab"
+   "description": "Experimental: start or stop PsychTabber on the current tab (may not work on every computer)"
   },
   "panic": {
    "suggested_key": {
     "default": "Alt+Shift+X"
    },
-   "description": "Stop PsychTabber immediately on the current tab"
+   "description": "Experimental: try to stop PsychTabber on the current tab (may not work on every computer)"
   }
  }
 }

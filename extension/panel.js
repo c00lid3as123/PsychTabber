@@ -48,7 +48,7 @@ $('rnd').onclick=()=>{let n=0;VISIBLE.forEach(i=>{const a=Math.random()<.5;S.val
 chrome.runtime.onMessage.addListener(m=>{if(m&&m.t==='vals'&&Array.isArray(m.val)&&S.drift){m.val.forEach((v,i)=>{if(!PS.HIDDEN.has(i)){S.val[i]=v;const e=$('s'+i);if(e)e.value=v}})}});
 const showDiag=d=>{$('diag').textContent=d&&d.lines?('Page: '+d.host+(d.secure?'':'  (NOT https: capture unavailable)')+'\n'+d.lines.join('\n')):'Nothing yet.'};
 chrome.storage.onChanged.addListener((c,a)=>{if(a==='local'&&c.ps_diag)showDiag(c.ps_diag.newValue)});
-const WHY={inject:'Chrome only lets PsychTabber touch a tab after you click the PsychTabber toolbar icon on it (or press Alt+Shift+P there). Click the icon once while this tab is in front.',activeTab:'Chrome only lets PsychTabber capture a tab after you invoke it on that tab. Click the PsychTabber toolbar icon once while this tab is in front: that starts it. (Chrome pages, the Web Store and the new tab page can never be captured.)',
+const WHY={inject:'Chrome only lets PsychTabber touch a tab after you click the PsychTabber toolbar icon on it. Click the icon once while this tab is in front.',activeTab:'Chrome only lets PsychTabber capture a tab after you invoke it on that tab. Click the PsychTabber toolbar icon once while this tab is in front: that starts it. (Chrome pages, the Web Store and the new tab page can never be captured.)',
  blocked:"Chrome doesn't allow extensions on this page (chrome:// pages, the Web Store, the new tab page). Open a normal website."};
 async function refresh(){try{const[t]=await chrome.tabs.query({active:true,currentWindow:true});tabId=t&&t.id;
  const r=tabId==null?{active:false}:await chrome.runtime.sendMessage({t:'status',tabId});

@@ -113,6 +113,7 @@ function toggleCam(){if(!eng){toast('Camera keys need the full shader (press the
  camOn=!camOn;if(!camOn){eng.keys={};toast('Camera keys off. Arrow keys scroll the page again.',3500)}
  else toast('Camera ON: arrows or numpad 8/4/6/2 move, + / - rotate, PgUp/PgDn zoom, Shift = faster, R or numpad 5 resets. Alt+Shift+C exits.',9000);return camOn}
 function onKey(e,down){
+ if(down&&e.altKey&&e.shiftKey&&e.code==='KeyX'){e.preventDefault();e.stopPropagation();stopAll();send({t:'ended'});return}
  if(down&&e.altKey&&e.shiftKey&&e.code==='KeyC'){e.preventDefault();e.stopPropagation();toggleCam();return}
  if(drawEl){if(down&&(e.key==='Escape'||e.key==='Enter')){e.preventDefault();e.stopPropagation();endDraw()}return}
  const k=KEYS[e.code],r=e.code==='KeyR'||e.code==='Numpad5';

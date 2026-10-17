@@ -1,6 +1,6 @@
 # PsychTabber guide (v1.0)
 
-> This guide was written by AI, like the rest of this project. Details may be wrong or out of date. If something doesn't match what you see, trust what you see. See [DISCLAIMER.md](../DISCLAIMER.md). **Photosensitivity warning:** the visuals can be intense. Stop with Alt+Shift+X if you feel unwell.
+> This guide was written by AI, like the rest of this project. Details may be wrong or out of date. If something doesn't match what you see, trust what you see. See [DISCLAIMER.md](../DISCLAIMER.md). **Photosensitivity warning:** the visuals can be intense. Stop if you feel unwell. Keyboard shortcuts are experimental and may not work on every computer, so do not rely on them. To stop, press **Start/Stop** in the panel, click the toolbar icon, or close or reload the tab. See [EFFECTS.md](EFFECTS.md) for an explanation of every control.
 
 ## 1. Install
 1. Download the latest release zip (or the repo) and unzip it.
@@ -31,7 +31,7 @@ flowchart TD
     G -->|Yes| H["Full shader running (badge ON)"]
     G -->|No| I["Error shown in the box and in Diagnostics"]
     I --> C
-    H --> J["Click the icon again, or Alt+Shift+X, to stop"]
+    H --> J["Click the icon again, or press Start/Stop in the panel, to stop"]
 ```
 
 If the full shader fails, the purple box shows the reason. Reduced mode stays on. Open **Diagnostics** at the bottom of the panel for details.
@@ -39,6 +39,8 @@ If the full shader fails, the purple box shows the reason. Reduced mode stays on
 ## 3. The side panel
 
 ![Side panel layout](img/panel-layout.svg)
+
+Real screenshots and a full explanation of every control are in [EFFECTS.md](EFFECTS.md).
 
 - **Start on this tab:** start or stop on the current tab.
 - **Presets:** pick a built-in look. Type a name and press **Save** to keep yours. **Export** and **Import** share presets as files.
@@ -100,14 +102,8 @@ flowchart LR
     T --> O
 ```
 
-## 6. Shortcuts
-| Keys | Action |
-|---|---|
-| Alt+Shift+P | Start or stop on the current tab |
-| Alt+Shift+X | Stop immediately |
-| Alt+Shift+C | Camera keys on or off |
-
-You can change the first two at `chrome://extensions/shortcuts`.
+## 6. Keyboard shortcuts
+Only one is documented: **Alt+Shift+C** switches the camera keys on or off while the page is focused (see above). Other shortcuts are experimental and may not work on every computer, so use the panel button, the toolbar icon or closing the tab to stop.
 
 ## 7. Troubleshooting
 
@@ -133,4 +129,8 @@ Details:
 - **Works on one site but not another:** capture varies by site. Please report it in an Issue.
 
 ## 8. Safety
-Take breaks, keep the strength low at first, and never use it if you are sensitive to flashing images.
+Take breaks, keep the strength low at first, and never use it if you are sensitive to flashing images. Stop immediately if you feel unwell. The reliable ways to stop are the panel's Start/Stop button, the toolbar icon, or closing the tab.
+
+## 9. More
+- [Every control and effect explained](EFFECTS.md)
+- [Testing checklist](TESTING.md)

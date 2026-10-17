@@ -4,8 +4,8 @@ Written by AI. No programming knowledge is needed to read this.
 
 | File | What it does |
 |---|---|
-| `manifest.json` | The extension's ID card: name, version, permissions, shortcuts. |
-| `background.js` | Runs in the background. Handles the toolbar icon, shortcuts and the ON/LITE badge. |
+| `manifest.json` | The extension's ID card: name, version, permissions, experimental shortcuts. |
+| `background.js` | Runs in the background. Handles the toolbar icon, the experimental shortcuts and the ON/LITE badge. |
 | `content.js` | Runs inside the tab. Asks Chrome to share the tab, draws the effect on top, handles camera keys and cut-out drawing. |
 | `engine.js` | The graphics engine (WebGL). Contains the effects and the camera feedback. |
 | `lite.js` | A simpler no-capture version of the effects. |
