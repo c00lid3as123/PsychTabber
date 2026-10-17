@@ -1,8 +1,11 @@
-# PsychTabber
-
-| Top of the panel | Camera and cut-outs | Effects | Performance |
-|---|---|---|---|
-| ![Presets, master controls and camera feedback](docs/img/panel-1-top.jpg) | ![Camera feedback sliders and cut-outs](docs/img/panel-2-camera-and-cutouts.jpg) | ![Effects list](docs/img/panel-3-effects.jpg) | ![Effects, performance and display](docs/img/panel-4-performance.jpg) |
+<table>
+<tr>
+<td width="25%"><img src="docs/img/panel-1-top.jpg" alt="Panel top"></td>
+<td width="25%"><img src="docs/img/panel-2-camera-and-cutouts.jpg" alt="Camera and cut-outs"></td>
+<td width="25%"><img src="docs/img/panel-3-effects.jpg" alt="Effects list"></td>
+<td width="25%"><img src="docs/img/panel-4-performance.jpg" alt="Performance and display"></td>
+</tr>
+</table>
 
 Every control is explained in [docs/EFFECTS.md](docs/EFFECTS.md). A drawing of the panel layout is in the [guide](docs/GUIDE.md).
 
