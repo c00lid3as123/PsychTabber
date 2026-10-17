@@ -18,7 +18,7 @@
 ## Demo
 
 
-Uploading demo1.mp4…
+
 
 <!-- DEMO VIDEO GOES HERE. To add it: click the pencil icon to edit this file, drag demo.mp4 into the editor
      right below this comment (free accounts allow up to 10 MB), wait for the link to appear, then commit. -->
