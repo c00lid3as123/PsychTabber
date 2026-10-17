@@ -1,6 +1,5 @@
 # PsychTabber
 
-## Screenshots
 | Top of the panel | Camera and cut-outs | Effects | Performance |
 |---|---|---|---|
 | ![Presets, master controls and camera feedback](docs/img/panel-1-top.jpg) | ![Camera feedback sliders and cut-outs](docs/img/panel-2-camera-and-cutouts.jpg) | ![Effects list](docs/img/panel-3-effects.jpg) | ![Effects, performance and display](docs/img/panel-4-performance.jpg) |
